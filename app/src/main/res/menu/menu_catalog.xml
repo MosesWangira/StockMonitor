@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.stockMonitor.CatalogActivity">
+    <!--<item-->
+        <!--android:id="@+id/search"-->
+        <!--android:title="search"-->
+        <!--app:showAsAction="ifRoom|collapseActionView"-->
+        <!--android:icon="@drawable/search_list"-->
+        <!--app:actionViewClass="android.support.v7.widget.SearchView"-->
+        <!--/>-->
+    <item
+        android:id="@+id/user_manual"
+        android:title="user manual"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/current_price"
+        android:title="market prices"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/delete_all_items"
+        android:title="@string/action_delete_all_entries"
+        app:showAsAction="never" />
+</menu>
